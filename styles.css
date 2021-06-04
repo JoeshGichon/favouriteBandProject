@@ -16,8 +16,11 @@ a{
     text-decoration: none;
 }
 .container{
-    margin: 10px;
-    padding: 10px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 p{
     font-family: 'Roboto', sans-serif;
@@ -25,4 +28,7 @@ p{
 #logo{
     display: inline;
     font-size: 20px;
+}
+#navLinks{
+    display: inline;
 }
