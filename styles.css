@@ -16,19 +16,27 @@ a{
     text-decoration: none;
 }
 .container{
-    width: 100%;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 p{
     font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.4erm;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: 0.05rem;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 #logo{
-    display: inline;
-    font-size: 20px;
-}
-#navLinks{
-    display: inline;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    height: auto;
 }
