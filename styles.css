@@ -46,17 +46,16 @@ p{
 
 
 /* header styles */
-#top{
-    background: url("https://en.wikipedia.org/wiki/Westlife");
+#header-container{
+    display: flex;
 }
-#header{
-    background-color: #F1F7ED;
-    padding: 50px;
-}
-#header-image{
-    margin: 20px;
+#header-container img{
+    margin: 10px;
     padding: 10px;
-    
+}
+#header-container p{
+    margin: 10px;
+    padding: 20px;
 }
 /* End of header styles */
 
