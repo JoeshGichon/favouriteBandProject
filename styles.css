@@ -61,6 +61,14 @@ p{
 
 
 /* section 1 styles */
+#section-1-container{
+    display: flex;
+    width: 25vw;
+}
+#section-1-container .artists img{
+    height: 300px;
+    width: auto;
+}
 .artists{
     display: flex;
     margin: 10px;
