@@ -71,6 +71,7 @@ p{
 #section-1-container{
     display: flex;
     width: 25vw;
+    margin-left: 30px;
 }
 #section-1-container .artists img{
     height: 300px;
